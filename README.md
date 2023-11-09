@@ -56,11 +56,11 @@ All of these files can be found under /intermediate folder. These are placed the
 - FireYear: Specifies the year of the fires.
 - SmokeEstimate: Represents the average annual smoke calculations derived from periodic estimates throughout the corresponding year.
   
-6. daily_aqi.csv
-- site_number
-- parameter_code
-- sample_duration
-- date_local
+6. daily_aqi.csv: Produced within code 1.3, this is the raw data that is obtained from the API.
+- site_number: Site location of each sensor.
+- parameter_code: Which gas/particulate matter the sensor collects data for.
+- sample_duration: The duration of the sample, 24 hour average data in out case.
+- date_local: Timestamp of sample collection.
 
 7. yearly_aqi.csv: Produced within code 1.3, this file includes consolidated annual average Air Quality Index (AQI) data from all monitoring devices throughout San Juan County. The data is structured into 2 columns:
 - year: Holds the specific twelve-month period in which AQI readings were gathered.
