@@ -66,10 +66,21 @@ All of these files can be found under /intermediate folder. These are placed the
 - year: Holds the specific twelve-month period in which AQI readings were gathered.
 - yearly_avg_aqi: The mean AQI level calculated from all detectors in the county.
 
-Both of these intermediate files are outputs from analyze_wildfires.ipynb.
+# Known Data Issues and Special Considerations
+- The dataset from the United States Geological Survey (USGS) contains approximately 130,000 records of wildfires, with about 94,774 of these incidents taking place since 1963 and occurring within a 1,250-mile radius of Farmington, New Mexico.
+- The USGS Wildland Fire Combined Dataset includes approximations of fire perimeters, with data pre-1980 likely underreporting fire occurrences.
+- Fire boundaries are considered estimates, with the potential for numerous recording errors or omissions.
+- The dataset assumes land burns once per year; areas reported as burned more than once are counted as a single event.
+- Fires in the dataset are classified as wild or prescribed based on the best available information, with some remaining uncertainties.
+- A unified set of fields was created to standardize data from multiple sources, despite potential inconsistencies.
+- Fire attributes in the dataset include a count of how often each entry appears to indicate data confidence levels.
+- Data collection for the dataset concluded in 2020.
+- The fire distance calculation tool is limited to "ring" shaped fires; 36 "curve ring" shaped fires are incompatible and thus omitted.
+- Air Quality Index (AQI) records from earlier periods can be intermittent. It has been observed that consistent and dependable AQI measurements from stations in Farmington, NM, commenced from 2005 onwards.
+- AQI data is also restricted to the fire season for comparison with smoke estimates.
 
 ## Outputs
-[Q1.png](https://github.com/adithyaav27/data-512-common-analysis/blob/main/Images/Q1.png) : This graph depicts the cumulative acreage affected by wildfires each year within a 1,250-mile radius of Farmington, NM, over the period from 1963 to 2020.
-[Q2.png](https://github.com/adithyaav27/data-512-common-analysis/blob/main/Images/Q2.png) : This is a graphical representation that illustrates the spatial distribution of wildfires in relation to Farmington, NM, spanning the years 1963 to 2020.
-[Q3.png](https://github.com/adithyaav27/data-512-common-analysis/blob/main/Images/Q3.png) : This is a graph illustrating the comparison between the estimated yearly smoke levels and the annual Air Quality Index (AQI) during fire seasons, spanning from 2005 to 2020.
-[Step 3 Report.pdf](https://github.com/adithyaav27/data-512-common-analysis/blob/main/Step%203%20Report.pdf) This is a document containing in-depth analysis of the initial trio of diagrams presented, accompanied by a commentary reflecting on the findings.
+- [Q1.png](https://github.com/adithyaav27/data-512-common-analysis/blob/main/Images/Q1.png) : This graph depicts the cumulative acreage affected by wildfires each year within a 1,250-mile radius of Farmington, NM, over the period from 1963 to 2020.
+- [Q2.png](https://github.com/adithyaav27/data-512-common-analysis/blob/main/Images/Q2.png) : This is a graphical representation that illustrates the spatial distribution of wildfires in relation to Farmington, NM, spanning the years 1963 to 2020.
+- [Q3.png](https://github.com/adithyaav27/data-512-common-analysis/blob/main/Images/Q3.png) : This is a graph illustrating the comparison between the estimated yearly smoke levels and the annual Air Quality Index (AQI) during fire seasons, spanning from 2005 to 2020.
+- [Step 3 Report.pdf](https://github.com/adithyaav27/data-512-common-analysis/blob/main/Step%203%20Report.pdf) This is a document containing in-depth analysis of the initial trio of diagrams presented, accompanied by a commentary reflecting on the findings.
