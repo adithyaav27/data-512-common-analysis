@@ -26,7 +26,7 @@ A dependant library class is available in [/wildfire](https://github.com/adithya
 - USGS_Wildland_Fire_Combined_Dataset.json
   One can bbtain this JSON file from [USGS Wildfire data](https://www.sciencebase.gov/catalog/item/61aa537dd34eb622f699df81).
   Retrieve the 'GeoJSON Files.zip' file.
-  Extract the contents of this archive into a directory of your choice. You are expected to change the directory from which this particular data is read. (Change C:/Users/adith/Documents/data-512-common-analysis/intermediate/)
+  Extract the contents of this archive into a directory of your choice. You are expected to change the directory from which this particular data is read.
 - Additional data required for the analysis will be sourced from the AQS API.
 
 ## Intermediate outputs
