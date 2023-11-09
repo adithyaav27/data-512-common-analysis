@@ -50,7 +50,7 @@ All of these files can be found under /intermediate folder. These are placed the
 -  FireYear: The calendar year in which the fire occurred.
 -  GISAcres: The measured area of the fire's geographic footprint, calculated via the Calculate Geometry function in ArcGIS Pro.
 -  OverlapFlags: A designation for regions where there has been a recurrence of burning, exceeding 10% overlap of the original fire's area, within a one- or two-year timespan, as analyzed by the ArcGIS Tabulate Intersection Tool.
--  shortest_dist: It represents the minimum distance from the perimeter of the fire incident to Pahrump.
+-  shortest_dist: It represents the minimum distance from the perimeter of the fire incident to Farmington, NM.
 
 5. annual_smoke_estimate.csv: Created by code 1.2, this file provides yearly assessments of smoke levels for Farmington, NM. A reading of 0 signifies either an absence of smoke or a non-applicable measurement. The data is organized in two main columns:
 - FireYear: Specifies the year of the fires.
