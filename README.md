@@ -26,7 +26,7 @@ A dependant library class is available in [/wildfire](https://github.com/adithya
 - USGS_Wildland_Fire_Combined_Dataset.json
   One can bbtain this JSON file from [USGS Wildfire data](https://www.sciencebase.gov/catalog/item/61aa537dd34eb622f699df81).
   Retrieve the 'GeoJSON Files.zip' file.
-  Extract the contents of this archive into a directory of your choice. You are expected to change the directory from which this particular data is read. 
+  Extract the contents of this archive into a directory of your choice. You are expected to change the directory from which this particular data is read. (Change C:/Users/adith/Documents/data-512-common-analysis/intermediate/)
 - Additional data required for the analysis will be sourced from the AQS API.
 
 ## Intermediate outputs
@@ -70,11 +70,11 @@ All of these files can be found under /intermediate folder. These are placed the
 - The dataset from the United States Geological Survey (USGS) contains approximately 130,000 records of wildfires, with about 94,774 of these incidents taking place since 1963 and occurring within a 1,250-mile radius of Farmington, New Mexico.
 - The USGS Wildland Fire Combined Dataset includes approximations of fire perimeters, with data pre-1980 likely underreporting fire occurrences.
 - Fire boundaries are considered estimates, with the potential for numerous recording errors or omissions.
-- The dataset assumes land burns once per year; areas reported as burned more than once are counted as a single event.
+- The USGS dataset assumes land burns once per year; areas reported as burned more than once are counted as a single event.
 - Fires in the dataset are classified as wild or prescribed based on the best available information, with some remaining uncertainties.
 - A unified set of fields was created to standardize data from multiple sources, despite potential inconsistencies.
 - Fire attributes in the dataset include a count of how often each entry appears to indicate data confidence levels.
-- Data collection for the dataset concluded in 2020.
+- Data collection for the USGS dataset concluded in 2020.
 - The fire distance calculation tool is limited to "ring" shaped fires; 36 "curve ring" shaped fires are incompatible and thus omitted.
 - Air Quality Index (AQI) records from earlier periods can be intermittent. It has been observed that consistent and dependable AQI measurements from stations in Farmington, NM, commenced from 2005 onwards.
 - AQI data is also restricted to the fire season for comparison with smoke estimates.
