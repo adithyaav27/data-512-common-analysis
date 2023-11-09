@@ -30,8 +30,13 @@ A dependant library class is available in /wildfire. This is imported within the
 - Additional data required for the analysis will be sourced from the AQS API.
 
 ## Intermediate outputs
-- aqs.csv contains the AQI data from 1963 to 2023 for air quality monitoring stations in Texerkana TX.
-- distances.csv contains the wildfire data from USGS along with their calculated distance to Texarkana, TX.
+annual_smoke_estimate.csv
+closefires.csv
+daily_aqi.csv
+distance.csv
+features.csv
+finalfiresdata.csv
+yearly_aqi.csv
 
 Both of these intermediate files are outputs from analyze_wildfires.ipynb.
 
