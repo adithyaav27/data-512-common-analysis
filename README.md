@@ -28,3 +28,15 @@ A dependant library class is available in /wildfire. This is imported within the
   Retrieve the 'GeoJSON Files.zip' file.
   Extract the contents of this archive into a directory of your choice. You are expected to change the directory from which this particular data is read. 
 - Additional data required for the analysis will be sourced from the AQS API.
+
+## Intermediate outputs
+- aqs.csv contains the AQI data from 1963 to 2023 for air quality monitoring stations in Texerkana TX.
+- distances.csv contains the wildfire data from USGS along with their calculated distance to Texarkana, TX.
+
+Both of these intermediate files are outputs from analyze_wildfires.ipynb.
+
+## Outputs
+[Q1.png](https://github.com/adithyaav27/data-512-common-analysis/blob/main/Images/Q1.png) : This graph depicts the cumulative acreage affected by wildfires each year within a 1,250-mile radius of Farmington, NM, over the period from 1963 to 2020.
+[Q2.png](https://github.com/adithyaav27/data-512-common-analysis/blob/main/Images/Q2.png) : This is a graphical representation that illustrates the spatial distribution of wildfires in relation to Farmington, NM, spanning the years 1963 to 2020.
+[Q3.png](https://github.com/adithyaav27/data-512-common-analysis/blob/main/Images/Q3.png) : This is a graph illustrating the comparison between the estimated yearly smoke levels and the annual Air Quality Index (AQI) during fire seasons, spanning from 2005 to 2020.
+[Step 3 Report.pdf](https://github.com/adithyaav27/data-512-common-analysis/blob/main/Step%203%20Report.pdf) This is a document containing in-depth analysis of the initial trio of diagrams presented, accompanied by a commentary reflecting on the findings.
